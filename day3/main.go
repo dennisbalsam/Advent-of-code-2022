@@ -40,16 +40,13 @@ func main() {
 			// part 2 logic
 			switch groupDivider {
 			case 1:
-				fmt.Println("HERE")
 				groupValues["firstGroupValues"][string(c)] = ""
 			case 2:
-				fmt.Println("HERE 2")
 				if _, ok := groupValues["firstGroupValues"][string(c)]; ok {
 					groupValues["mutualValues"][string(c)] = ""
 					delete(groupValues["firstGroupValues"], string(c))
 				}
 			case 3:
-				fmt.Println("HERE 3")
 				if _, ok := groupValues["mutualValues"][string(c)]; ok {
 					groupsOf3Sum += values[string(c)]
 					delete(groupValues["mutualValues"], string(c))
