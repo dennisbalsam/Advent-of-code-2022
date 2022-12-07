@@ -30,3 +30,9 @@ nznrnfrfntjfmvfwmzdfjlvtqnbhcprsg: first marker after character 10
 zcfzfwzzqfrljwzlrfnpqdbhtmscgvjw: first marker after character 11
 How many characters need to be processed before the first start-of-packet marker is detected?
 
+For answer
+
+```
+cd day3
+go run main.go
+```
